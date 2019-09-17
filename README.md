@@ -1,5 +1,10 @@
 API calls for box.com
 =======
+#Update September 2019
+This code for uploading a file to box still works. Couple of tricks required when setting up an app on box.com:
+1. Box.com will ask you what type of App you want to create when you create a new app in the Developer console. Choose 'Enterprise Integration'. 
+2. On the next screen, chose the 'Standard OAuth 2.0 (User Authentication)' option as the authentication method. 
+
 
 #Token Setup
 0. An app associated with your box.com account first needs to be created through the box developers site: (https://app.box.com/developers/services). Set the redirect URL to be https://127.0.0.1
